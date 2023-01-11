@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">University</string>
+    <string name="Fuzzy">Fuzzy</string>
+    <string name="start">start</string>
+    <string name="search">Search here…</string>
+    <string name="msu">Moscow State University</string>
+    <string name="programs">604 programs</string>
+    <string-array name="names">
+        <item>Moscow State University</item>
+        <item>Bauman Moscow State Technical University</item>
+        <item>Russian Technical University</item>
+        <item>The Peoples Friendship University of Russia</item>
+        <item>Academy of Watercolors and Fine Arts of Sergei Andriyaki</item>
+    </string-array>
+    <string-array name="programs">
+        <item>41 faculties</item>
+        <item>16 faculties</item>
+        <item>7 faculties</item>
+        <item>13 faculties</item>
+        <item>1 faculty</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>Moscow University is one of the oldest universities in Russia, was founded in 1755. The university is known all over the world and occupies leading positions in the rankings of universities in various fields."\n"
+                Faculties:"\n"
+                - Computational Mathematics and cybernetics (390-public, 305-paid)"\n"
+                -Mechanical and mathematical (390-public, 305-paid)"\n"
+                -Philological (310-public, 270-paid)"\n"
+                -Physically (395-public, 358-paid)"\n"
+                -Geological (287-public, 234-paid)"\n"
+                -Sociological (260-public, 213-paid)"\n"
+                -Philosophical (330-public, 250-paid)"\n"
+                -Pedagogical (public-, paid-311)"\n"
+                -Chemical (public-370, paid-335)"\n"</item>
+                        <item>
+                            Bauman Moscow State Technical University (National Research University) trains engineers for machine-building enterprises, for aircraft and rocket engineering and other high-tech industries."\n"
+                            Faculties:"\n"
+                -Computer Science, artificial intelligence and control systems (public-370, paid-335)"\n"
+                -Engineering business and Management (public-370, paid-335)"\n"
+                -Mechanical engineering technologies (public-370, paid-335)"\n"
+                -Special engineering (public-370, paid-335)"\n"
+                -Biomedical engineering (public-370, paid-335)"\n"
+                -Radio electronics and laser technology (public-370, paid-335)"\n"
+                -Power engineering"\n"</item>
+                        <item>MIREA — Russian Technological University is one of the largest technological universities in Russia, which conducts training in such areas as information technology and data analysis, information and computer security, chemistry and biotechnology, radio electronics, robotics and production automation, economics and management, law and design."\n"
+                            Faculties: "\n"
+                - Institute of Cybersecurity and Digital Technologies (public-370, paid-335)"\n"
+                -Institute of Advanced Technologies and Industrial Programming (public-370, paid-335)"\n"
+                -Institute of Radio Electronics and Computer Science (public-370, paid-335)"\n"
+                -Lomonosov Institute of Fine Chemical Technologies (public-370, paid-335)"\n"
+                -Institute of Information Technologies (public-370, paid-335)"\n"
+                -Institute of Artificial Intelligence (public-370, paid-335)"\n"
+                -Institute of Management Technologies (public-370, paid-335)"\n"</item>
+                        <item>Faculties: "\n"
+                - Economics"\n"
+                -Medical (public-370, paid-335)"\n"
+                -Faculty of Humanities and Social Sciences (public-370, paid-335)"\n"
+                -Philological (public-370, paid-335)"\n"
+                -Institute of the Russian Language (public-370, paid-335)"\n"
+                -Institute of Hotel Business and Tourism (public-370, paid-335)"\n"
+                -Institute of Biochemical Technology and Nanotechnology (public-370, paid-335)"\n"
+                -Institute of World Economy and Business (International Business School) (public-370, paid-335)"\n"</item>
+                <item>The Academy of Watercolors and Fine Arts of Sergei Andriyaki is an art university offering a fundamentally new approach to the training of artists."\n"
+                    Faculties:"\n"
+                -Painting and fine art (public-332, paid-266)"\n"</item>
+    </string-array>
+    <string name="no_found">Никогда не используйте view-компонент "\n"
+            -ListView"\n"
+            -GridView вместе со ScrollView."\n"
+            ListView предназначен для отображения списка элементов и оптимизирован для работы с большим объемом данных. Кроме того, он содержит встроенные возможности для прокрутки содержимого.
+Контейнер Scrollview поддерживает только вертикальную прокрутку. Если Вы хотите добавить горизонтальную прокрутку, то нам понадобится другой наследник FrameLayout — контейнер HorizontalScrollView.
+В xml разметке контейнер ScrollView имеет полезное свойство android:fillViewport, которое определяет, должен ли Scrollview растягивать свое содержание, чтобы заполнить доступное место на экране. Также доступен метод для установки этого значения в коде: setFillViewport(boolean).</string>
+    <string name="vmk">Faculty of Computational Mathematics and Cybernetics</string>
+    <string name="pochv">Faculty of Soil Science</string>
+    <string name="phyl">Faculty of Philology</string>
+    <string name="global">Faculty of Global Processes</string>
+    <string name="phys">Faculty of Physics</string>
+    <string name="gal">Photo gallery</string>
+</resources>
